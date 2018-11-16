@@ -1,0 +1,110 @@
+<html>
+<title>unknown</title>
+
+    
+<style type="text/css">
+
+    html {
+        scroll-behavior: smooth;
+    }
+   
+body {
+    margin: 0;
+    background-color: #000;
+    }
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    a:hover {
+        animation: changecolor 0.3s infinite;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+#title {
+	background: url("tokyoghoul.gif") no-repeat center center;
+    background-color: #000;
+    -webkit-background-clip: text;
+	background-size: cover;
+	color: #000;
+	-webkit-text-fill-color: transparent;
+    min-height: 137%;
+}
+#title h1 {
+	font-size: 200px;
+	font-family: Anton, sans-serif;
+	text-align: center;
+	-webkit-transition: text-shadow 1s ease;
+	text-shadow: 0 0 1px rgba(0,0,0,.1);
+	margin: 0;
+	padding: 0;
+    font-variant: small-caps;
+    line-height: 100%
+}
+    #compsci {
+        position: relative;;
+    }
+#compsci h2 {
+    font-size: 150px;
+    font-family: Anton, sans-serif;
+    text-align: center;
+    color: #fff;
+    font-variant: small-caps;
+    margin-top: -700px;
+    text-decoration: underline;
+    font-weight: lighter;
+    }
+#compsci h3 {
+    font-size: 75px;
+    font-family: Anton, sans-serif;
+    text-align: center;
+    color: #fff;
+    font-variant: small-caps;
+    float: left;
+    margin-left: 50%;
+    margin-top: -110px;
+    }
+    #compsci h3:hover {
+        animation: changecolor 0.3s infinite;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes changecolor {
+        from { color: #fff; }
+        to {color: #333; }
+    }
+    
+    #div1scroll {
+        height: 100%;
+        background-color: #333;
+    }
+    #div1scroll h1 {
+        font-size: 75px;
+        text-align: center;
+        font-family: Anton, sans-serif;
+        color: #fff;
+        font-variant: small-caps;
+        float: left;
+        margin-left: -25%;
+        margin-top: -10px;
+    }
+    
+</style>
+
+<body>
+
+<div id="title">
+    <h1>peter</h1>
+    </div>
+    <div id="compsci">
+    <h2>computer science student</h2>
+        <h3><a href="#div1scroll">↓</a></h3>
+    </div>
+    
+    <div id="div1scroll">
+        <h1>placeholder text</h1>
+    </div>
+</body>
+
+</html>
